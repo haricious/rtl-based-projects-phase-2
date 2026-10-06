@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 
-module tb_p_alu;
+module p_alu;
 
 
 endmodule
