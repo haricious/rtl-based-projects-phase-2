@@ -1,5 +1,7 @@
 `timescale 1ns/1ps
 
+// add, sub, and, or, xor, shift, 
+
 module p_alu #(
 	parameter width = 32
 )
@@ -15,6 +17,17 @@ module p_alu #(
 		output wire overflow,
 		output wire negative
 	);
+
+	case(opcode)
+	3'b000: result=a+b;
+	3'b001: result=a-b;
+	3'b010: result=
+
+
+
+	default: 
+
+	endcase
 
 
 endmodule
